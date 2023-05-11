@@ -9,6 +9,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       roboto: ["Roboto_Condensed", "sans-serif"],
+      merienda: ["Merienda", "sans-serif"]
     }
   },
   plugins: [],
