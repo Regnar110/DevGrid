@@ -4,6 +4,7 @@ import TrumpSubSection from '@/components/AboutSection/TrumpSubSection/TrumpSubS
 import LandingPage from '@/components/LandingPage'
 import LandingWithLogo from '@/components/LandingWithLogo/LandingWithLogo'
 import Navigation from '@/components/Navigation/Navigation'
+import RocketIcon from '@/components/RocketIcon'
 
 
 export default function Home() {
