@@ -5,6 +5,7 @@ import LandingPage from '@/components/LandingPage'
 import LandingWithLogo from '@/components/LandingWithLogo/LandingWithLogo'
 import Navigation from '@/components/Navigation/Navigation'
 import RocketIcon from '@/components/RocketIcon'
+import Technologies from '@/components/Technologies/Technologies'
 
 
 export default function Home() {
@@ -13,10 +14,19 @@ export default function Home() {
       <Navigation/>
       <LandingWithLogo/>
       <section className='about_section relative w-full mt-6 flex flex-col justify-center items-center md:items-start'>
-      <span className='sub_section_header font-roboto md:text-[45px] text-[35px] lg:text-[65px] xl:text-[70px] 2xl:text-[80px] font-outline-2 text-[#00000015] font-extrabold pl-5'>ABOUT US</span>
+      <div className='sub_section_header_wrapper flex justify-start items-center pl-5 w-full'>
+        <div className='w-[3px] h-[60px] bg-[#FF7400]'></div>
+        <span className='sub_section_header font-roboto md:text-[45px] text-[35px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-[#444548] font-bold pl-1'>ABOUT US</span>        
+      </div>
+      
         <TrumpSubSection/>
         <ShowCase/>
         <ElonSubSection/>
+        <div className='sub_section_header_wrapper flex justify-start items-center pl-5 w-full'>
+          <div className='w-[3px] h-[60px] bg-[#FF7400]'></div>
+          <span className='sub_section_header font-roboto md:text-[45px] text-[35px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-[#444548] font-bold pl-1'>SERVICES</span>        
+        </div>
+        <Technologies/>
       </section>
     </LandingPage>
   )

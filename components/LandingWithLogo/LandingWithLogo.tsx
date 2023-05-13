@@ -11,12 +11,12 @@ const LandingWithLogo = () => {
     setIsMounted(true)
   },[])
   return isMounted ? 
-    <div className='landing_starter font-roboto grid grid-cols-1 grid-rows-2 md:grid-cols-5 md:grid-rows-1 justify-items-center items-center h-[100vh]'>
+    <div className='landing_starter font-roboto grid grid-cols-1 grid-rows-2 md:grid-cols-5 md:grid-rows-1 justify-items-center items-center h-[100vh] md:p-4'>
       <MediaQuery minWidth={768}>
-        <Image priority={true} className='col-span-3 h-fit' width={1200} src={starter_logo} alt="big_logo"/>
+        <Image priority={true} className='col-span-3 h-fit justify-self-center' width={600} src={starter_logo} alt="big_logo"/>
       </MediaQuery>
       <MediaQuery maxWidth={767}>
-        <Image priority={true}  className='col-span-1 h-fit p-3' width={500} src={starter_mobile_logo} alt="mini_logo"/>
+        <Image priority={true}  className='col-span-1 h-fit p-3 justify-self-center' width={500} src={starter_logo} alt="mini_logo"/>
       </MediaQuery>
       <div className='startet_headers relative box-border col-span-2 flex flex-col justify-center items-center text-center md:text-left w-full'>
         <GradientHeader header_text='INNOVATION'/>
