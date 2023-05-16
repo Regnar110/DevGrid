@@ -26,6 +26,7 @@
     "react-responsive": "^9.0.2",
     "swiper": "^9.3.1",
     "tsparticles": "^2.9.3",
+    "tsparticles-plugin-polygon-mask": "^2.9.3",
     "typescript": "5.0.4"
   },
   "devDependencies": {
