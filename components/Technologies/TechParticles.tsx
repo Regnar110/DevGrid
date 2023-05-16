@@ -4,13 +4,16 @@ import Particles from "react-particles";
 import type { Container, Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 import { loadPolygonMaskPlugin } from "tsparticles-plugin-polygon-mask";
-import motyl from '../../public/KJYvo-geometric-polygon-butterfly.svg'
+
 const TechParticles = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
         await loadFull(engine);
         await loadPolygonMaskPlugin(engine);
       }, []);
       const options = {
+        fullScreen: {
+            enable:false
+        },
         name: "Polygon Mask",
         interactivity: {
           events: {
@@ -72,13 +75,13 @@ const TechParticles = () => {
         },
         particles: {
           color: {
-            value: "#ffffff"
+            value: "#FF7400"
           },
           links: {
             blink: false,
-            color: "#ffffff",
+            color: "#FF7400",
             consent: false,
-            distance: 30,
+            distance: 50,
             enable: true,
             opacity: 0.4,
             width: 1
@@ -96,7 +99,7 @@ const TechParticles = () => {
             animation: {
               enable: true,
               speed: 2,
-              sync: false
+              sync: true
             },
             value: {
               min: 0.05,
@@ -104,7 +107,7 @@ const TechParticles = () => {
             }
           },
           shape: {
-            type: "circle"
+            type: "triangle"
           },
           size: {
             value: 1
@@ -113,8 +116,8 @@ const TechParticles = () => {
         polygon: {
           draw: {
             enable: true,
-            lineColor: "rgba(255,255,255,0.2)",
-            lineWidth: 1
+            lineColor: "#44454849",
+            lineWidth: 0.8
           },
           enable: true,
           move: {
@@ -123,12 +126,12 @@ const TechParticles = () => {
           inline: {
             arrangement: "equidistant"
           },
-          scale: 1,
+          scale: 0.5,
           type: "inline",
-          url: motyl
+          url: "https://upload.wikimedia.org/wikipedia/commons/3/33/Human-brain.SVG"
         },
         background: {
-          color: "#000000",
+          color: "#fff",
           image: "",
           position: "50% 50%",
           repeat: "no-repeat",
@@ -137,7 +140,8 @@ const TechParticles = () => {
     }
 
 
-  return <Particles id="tsparticles" options={options} init={particlesInit} />
+
+  return <Particles id="tsparticles" className='h-[400px] w-full bg-[#44454849]' options={options} init={particlesInit} />
 }
 
 export default TechParticles
