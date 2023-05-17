@@ -11,11 +11,10 @@ const TechParticles = () => {
         await loadPolygonMaskPlugin(engine);
       }, []);
       const options = {
-        fullScreen: {
-            enable:false
-        },
-        name: "Polygon Mask",
+        detectRetina: false,
+        fpsLimit: 30,
         interactivity: {
+          detectsOn: "canvas",
           events: {
             onClick: {
               enable: false,
@@ -34,25 +33,27 @@ const TechParticles = () => {
                 force: 2,
                 smooth: 10
               }
-            }
+            },
+            resize: true
           },
           modes: {
             bubble: {
               distance: 40,
               duration: 2,
               opacity: 8,
-              size: 6
+              size: 6,
+              speed: 3
             },
             connect: {
               distance: 80,
-              links: {
+              lineLinked: {
                 opacity: 0.5
               },
               radius: 60
             },
             grab: {
               distance: 400,
-              links: {
+              lineLinked: {
                 opacity: 1
               }
             },
@@ -75,73 +76,116 @@ const TechParticles = () => {
         },
         particles: {
           color: {
-            value: "#FF7400"
+            value: ["#4285f4", "#34A853", "#FBBC05", "#EA4335"]
           },
-          links: {
+          lineLinked: {
             blink: false,
-            color: "#FF7400",
+            color: "random",
             consent: false,
-            distance: 50,
+            distance: 40,
             enable: true,
-            opacity: 0.4,
+            opacity: 0.8,
             width: 1
           },
           move: {
+            attract: {
+              enable: false,
+              rotate: {
+                x: 600,
+                y: 1200
+              }
+            },
+            bounce: false,
+            direction: "none",
             enable: true,
-            outModes: "bounce",
-            speed: 1
+            outMode: "bounce",
+            random: false,
+            speed: 1,
+            straight: false
           },
           number: {
+            density: {
+              enable: false,
+              area: 2000
+            },
             limit: 0,
             value: 200
           },
           opacity: {
             animation: {
               enable: true,
+              minimumValue: 0.3,
               speed: 2,
-              sync: true
+              sync: false
             },
-            value: {
-              min: 0.05,
-              max: 0.4
-            }
+            random: false,
+            value: 0.8
           },
           shape: {
-            type: "triangle"
+            character: {
+              fill: false,
+              font: "Verdana",
+              style: "",
+              value: "*",
+              weight: "400"
+            },
+            image: {
+              height: 100,
+              replaceColor: true,
+              src: "https://cdn.matteobruni.it/images/particles/github.svg",
+              width: 100
+            },
+            polygon: {
+              sides: 5
+            },
+            stroke: {
+              color: "#000000",
+              width: 0
+            },
+            type: "circle"
           },
           size: {
+            animation: {
+              enable: false,
+              minimumValue: 0.1,
+              speed: 40,
+              sync: false
+            },
+            random: true,
             value: 1
           }
         },
         polygon: {
           draw: {
-            enable: true,
-            lineColor: "#44454849",
-            lineWidth: 0.8
+            enable: false,
+            lineColor: "rgba(255,255,255,0.2)",
+            lineWidth: 0.5
           },
           enable: true,
           move: {
-            radius: 10
+            radius: 5
           },
-          inline: {
-            arrangement: "equidistant"
+          position: {
+            x: 50,
+            y: 40
           },
-          scale: 0.5,
+          inlineArrangement: "equidistant",
+          scale: 0.8,
           type: "inline",
-          url: "https://upload.wikimedia.org/wikipedia/commons/3/33/Human-brain.SVG"
+          url:
+            "https://upload.wikimedia.org/wikipedia/commons/3/33/Human-brain.SVG"
         },
         background: {
-          color: "#fff",
+          color: "#000000",
           image: "",
           position: "50% 50%",
           repeat: "no-repeat",
           size: "cover"
         }
-    }
+      }
 
 
-
-  return <Particles id="tsparticles" className='h-[400px] w-full bg-[#44454849]' options={options} init={particlesInit} />
+  return <Particles id="tsparticles" className='h-[400px] w-full' options={options} init={particlesInit} />
 }
 
 export default TechParticles

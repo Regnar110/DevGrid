@@ -21,13 +21,13 @@ export default function Home() {
       
         <TrumpSubSection/>
         <ShowCase/>
-        <ElonSubSection/>
+       
         <div className='sub_section_header_wrapper flex justify-start items-center pl-5 w-full'>
           <div className='w-[3px] h-[60px] bg-[#FF7400]'></div>
           <span className='sub_section_header font-roboto md:text-[45px] text-[35px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-[#444548] font-bold pl-1'>TECHNOLOGIES USED</span>        
         </div>
         <Technologies/>
-        <TechParticles/>
+ <ElonSubSection/>
       </section>
     </LandingPage>
   )
