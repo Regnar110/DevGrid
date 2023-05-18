@@ -54,3 +54,276 @@ body,html {
 .rocket_movement_animation {
   animation: pulsate 2s ease-in-out infinite;
 }
+@keyframes htmlFloatAnimation {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-4px) translateX(-1px);
+  }
+  
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+@keyframes reactFloatAnimation {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(4px) translateX(6px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes bootstrapFloatAnimation {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(6px) translateX(-3px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes githubFloatAnimation {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-8px) translateX(-5px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes sassFloatAnimation {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-2px) translateX(5px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes jsFloatAnimation {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(2px) translateX(-3px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes cssFloatAnimation {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(8px) translateX(-1px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes screensFloatingAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes screensFloatingAnimationTwo {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes screensFloatingAnimationThree {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes rightArmMovement {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes leftArmMovement {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes cupShakeAnimation {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(-0.1deg);
+  }
+  20% {
+    transform: rotate(0.2deg);
+  }
+  30% {
+    transform: rotate(-0.1deg);
+  }
+  40% {
+    transform: rotate(0.1deg);
+  }
+  50% {
+    transform: rotate(-0.05deg);
+  }
+  60% {
+    transform: rotate(0.05deg);
+  }
+  70% {
+    transform: rotate(-0.02deg);
+  }
+  80% {
+    transform: rotate(0.02deg);
+  }
+  90% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.cup-shake path {
+  animation-name: cupShakeAnimation;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.right-arm-movement path {
+  animation-name: rightArmMovement;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.left-arm-movement path {
+  animation-name: leftArmMovement;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+.screen-float path {
+  animation-name: screensFloatingAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.screen-float-two path {
+  animation-name: screensFloatingAnimationTwo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.screen-float-three path {
+  animation-name: screensFloatingAnimationThree;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+
+.animated-path_react {
+  animation-name: reactFloatAnimation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.animated-path_bootstrap {
+  animation-name: bootstrapFloatAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.animated-path_github {
+  animation-name: githubFloatAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.animated-path_sass {
+  animation-name: sassFloatAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.animated-path_js {
+  animation-name: jsFloatAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.animated-path_css {
+  animation-name: cssFloatAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.animated_path_html {
+  animation-name: htmlFloatAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
