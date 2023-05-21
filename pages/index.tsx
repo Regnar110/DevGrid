@@ -4,7 +4,10 @@ import TrumpSubSection from '@/components/AboutSection/TrumpSubSection/TrumpSubS
 import LandingPage from '@/components/LandingPage'
 import LandingWithLogo from '@/components/LandingWithLogo/LandingWithLogo'
 import Navigation from '@/components/Navigation/Navigation'
+import DesignToCode from '@/components/Services/DesignToCode'
+import Services from '@/components/Services/Services'
 import WebDevelopment from '@/components/Services/WebDevelopment'
+import WebSolutions from '@/components/Services/WebSolutions'
 import TechParticles from '@/components/Technologies/TechParticles'
 import Technologies from '@/components/Technologies/Technologies'
 
@@ -17,7 +20,7 @@ export default function Home() {
       <section className='about_section relative w-full mt-6 flex flex-col justify-center items-center md:items-start'>
       <div className='sub_section_header_wrapper flex justify-start items-center pl-5 w-full'>
         <div className='w-[3px] h-[60px] bg-[#FF7400]'></div>
-        <span className='sub_section_header font-roboto md:text-[45px] text-[35px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-[#444548] font-bold pl-1'>ABOUT US</span>        
+        <span className='sub_section_header font-roboto md:text-[45px] text-[28px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-[#444548] font-bold pl-1'>ABOUT US</span>        
       </div>
       
         <TrumpSubSection/>
@@ -25,11 +28,17 @@ export default function Home() {
        
         <div className='sub_section_header_wrapper flex justify-start items-center pl-5 w-full'>
           <div className='w-[3px] h-[60px] bg-[#FF7400]'></div>
-          <span className='sub_section_header font-roboto md:text-[45px] text-[35px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-[#444548] font-bold pl-1'>TECHNOLOGIES USED</span>        
+          <span className='sub_section_header font-roboto md:text-[45px] text-[28px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-[#444548] font-bold pl-1'>TECHNOLOGIES USED</span>        
         </div>
         <Technologies/>
         <ElonSubSection/>
-        <WebDevelopment/>
+        <Services>
+          <WebDevelopment/>
+          <WebSolutions/>
+          <DesignToCode/>
+
+        </Services>
+        
       </section>
     </LandingPage>
   )
