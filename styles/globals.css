@@ -51,7 +51,7 @@ body,html {
 
 }
 
-.rocket_movement_animation {
+.rocket_movement_animation path {
   animation: pulsate 2s ease-in-out infinite;
 }
 @keyframes htmlFloatAnimation {
@@ -340,7 +340,7 @@ body,html {
   }
 }
 
-.rotate-right-animation {
+.rotate-right-animation path{
   animation-name: rotateRight;
   animation-duration: 4s;
   animation-timing-function: linear;
