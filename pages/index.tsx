@@ -32,10 +32,9 @@ export default function Home() {
         <Technologies/>
         <ShowCase/>
         <ElonSubSection/>
-        <TrumpSubSection/>
         <div className='section_header w-full flex justify-center items-center text-[25px] md:text-[30px] lg:text-[40px] font-bold my-10'>
           <div className='header'>
-            OTHERS <span className='text-[#FF7400]'> ABOUT US</span>
+            MY <span className='text-[#FF7400]'> PROJECTS</span>
           </div>
         </div>
         <Projects/>

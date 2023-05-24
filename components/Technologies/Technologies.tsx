@@ -19,7 +19,6 @@ import tailwind from '../../public/tech/tailwind.jpg'
 import mui from '../../public/tech/mui.png'
 import sanity from '../../public/tech/sanity.png'
 import mongo from '../../public/tech/mongodb.png'
-import SingleBenefit from '../Benefits/SingleBenefit';
 import Benefits from '../Benefits/Benefits';
 
 const Technologies = () => {
@@ -28,8 +27,8 @@ const Technologies = () => {
         setIsMounted(true)
     })
   return isMounted ?
-    <div className='tech_stack relative md:my-10 w-full flex flex-col font-roboto text-[20px] items-center justify-center'>
-        <p className='tech-stack-header text-[30px] text-center text-[#444548]'>We use only the latest tools and technologies</p>
+    <div className='tech_stack relative md:my-28 w-full flex flex-col font-roboto text-[20px] items-center justify-center'>
+        <p className='tech-stack-header text-[30px] font-bold text-center text-[#444548]'>We use only the latest tools and technologies</p>
         <p className='tech-header-underP text-[#444548] text-[18px] text-center'>used also by <span className='text-[#DE0913] font-bold'>NETFLIX</span>, <span className='text-[#1974EC] font-bold'>FACEBOOK</span>, <span className='font-bold text-black'>UBER</span> and other global giants.</p>
         <div className='techs w-full gap-8 my-8'>
             <MediaQuery minWidth={1024}>

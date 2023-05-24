@@ -3,8 +3,8 @@ import SingleBenefit from './SingleBenefit'
 
 const Benefits = () => {
   return (
-    <div className='benefits px-5 bg-[#FF7300] text-white flex flex-col justify-center w-full md:w-fit gap-10 md:gap-0'>
-        <h1 className='text-[40px] font-extrabold'>Key benefits</h1>
+    <div className='benefits px-5 bg-[#fff] text-[#444548] flex flex-col justify-center w-full md:w-fit gap-10 md:gap-0'>
+        <h1 className='text-[40px] font-extrabold text-[#444548]'>Key benefits</h1>
         <div className='benefits_content w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-items-start md:justify-items-center gap-10'>
             <SingleBenefit number={1} text='Higher conversion and greater search engine visibility, leading to more customers and profits.'/>
             <SingleBenefit number={2} text='A professional and modern look that builds trust and attracts the attention of users.'/>
