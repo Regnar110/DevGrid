@@ -4,7 +4,7 @@ import Image from 'next/image'
 import partnership_image from '../../../public/About/Partnership/partnership.png'
 const ShowCase = () => {
   return (
-    <div className='showcase_subsection h-fit relative w-full grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 font-roboto justify-items-center items-start md:items-center'>
+    <div className='showcase_subsection h-fit relative w-full lg:w-[90%]  grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 font-roboto justify-items-center items-start md:items-center'>
         <div className='showcase_image relative h-fit justify-self-start md:justify-self-center col-span-1 order-1'>
             <Image src={partnership_image} alt='partnership'/>
         </div>

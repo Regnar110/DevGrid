@@ -28,8 +28,10 @@ const Technologies = () => {
         setIsMounted(true)
     })
   return isMounted ?
-    <div className='tech_stack relative md:my-10 w-full flex flex-col gap-8 font-roboto text-[20px] items-center justify-center'>
-        <div className='techs w-full'>
+    <div className='tech_stack relative md:my-10 w-full flex flex-col font-roboto text-[20px] items-center justify-center'>
+        <p className='tech-stack-header text-[30px] text-center text-[#444548]'>We use only the latest tools and technologies</p>
+        <p className='tech-header-underP text-[#444548] text-[18px] text-center'>used also by <span className='text-[#DE0913] font-bold'>NETFLIX</span>, <span className='text-[#1974EC] font-bold'>FACEBOOK</span>, <span className='font-bold text-black'>UBER</span> and other global giants.</p>
+        <div className='techs w-full gap-8 my-8'>
             <MediaQuery minWidth={1024}>
                 <div className='techstack grid grid-cols-4 2xl:grid-cols-6 w-full items-center justify-items-center'>
                 <Image width={200} src={html} alt="tech"/>
