@@ -1,18 +1,16 @@
 import React from 'react'
-import Image from 'next/image'
-import apart from '../../public/projects/apart.png'
+import { projects } from '@/utils/ProjectsArray'
+import SingleProject from './SingleProject'
+
+
 const Projects = () => {
     return (
-        <section className='projects_section flex flex-col max-w-[2000px] mb-28'>
-            <div className='single_project relative overflow-hidden max-h-[100px] max-w-[1500px]'>
-                <div className='project_image_container relative'>
-                    <Image className=' scale-150' src={apart} alt='apart_project'/>                    
-                </div>
-                <div className='absolute top-0 w-full h-full project_absolute_wrapper bg-[#000000d0]'>
-                    <div className='absolute left-1/2 top-7 transform -translate-x-1/2 translate-y-7 text-white'>X</div>
-                    <h1 className='project_header p-8 text-[30px] font-bold text-[#FFF]'> Apart shop</h1>
-                </div>
-            </div>
+        <section className='projects_section grid grid-cols-1 xl:grid-cols-2 max-w-[1536px] mb-28  gap-x-4 p-8 gap-y-10'>
+            {
+                projects.map(el => (
+                    <SingleProject project_image={el.project_image} project_tittle={el.project_tittle} project_subtittle={el.project_subtittle} project_description={el.project_description} tech_array={el.tech_array}/>              
+                ))
+            }
         </section>
     )
 }
