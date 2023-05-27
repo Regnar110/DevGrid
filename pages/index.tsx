@@ -18,10 +18,10 @@ export default function Home() {
     <LandingPage>
       <Navigation/>
       <LandingWithLogo/>
-      <section className='about_section relative mt-6 flex flex-col justify-center items-center'>
-      <div className='section_header w-full flex justify-center items-center text-[25px] md:text-[30px] lg:text-[40px] font-bold my-10'>
+      <section className='about_section relative mt-6 flex flex-col justify-center items-center max-w-[1536px] drop-shadow-2xl rounded-md shadow-white bg-white'>
+      <div className='section_header w-full flex justify-center items-center text-[20px] md:text-[25px] lg:text-[30px] font-bold my-10'>
         <div className='header text-[#444548]'>
-          OUR <span className='text-[#FF7400]'> SERVICES</span>
+          Services
         </div>
       </div>
       <Services>
@@ -38,11 +38,6 @@ export default function Home() {
           </div>
         </div>
         <Projects/>
-      
-        
-        
-    
-        
       </section>
     </LandingPage>
   )
