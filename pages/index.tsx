@@ -32,9 +32,9 @@ export default function Home() {
         <Technologies/>
         <ShowCase/>
         <ElonSubSection/>
-        <div className='section_header w-full flex justify-center items-center text-[25px] md:text-[30px] lg:text-[40px] font-bold my-10'>
+        <div className='section_header w-fit grid grid-cols-3 justify-items-start text-[25px] md:text-[30px] lg:text-[40px] font-bold my-0'>
           <div className='header'>
-            MY <span className='text-[#FF7400]'> PROJECTS</span>
+            PROJECTS
           </div>
         </div>
         <Projects/>

@@ -32,11 +32,4 @@ export const projects = [
         project_description: "An application that allows face detection on provided photos and images with the ability to log in, register and save your progress in the application.",
         tech_array: ["Javascript", "TypeScript", "React", "Next", "Redux", "Tailwind", "Sanity CMS", "PostgreSQL"]
     },
-    {
-        project_image: rw,
-        project_tittle:"APART",
-        project_subtittle:"E-commerce platform",
-        project_description: " A reproduction of the APART jewelry store. The website has implemented functionalities such as login, registration, wish list, shopping cart, STRIPE payments, content management system to facilitate product management and mo0re.",
-        tech_array: ["Javascript", "TypeScript", "React", "Next", "Redux", "Tailwind", "Sanity CMS"]
-    },
 ]
