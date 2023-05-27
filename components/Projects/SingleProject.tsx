@@ -14,11 +14,11 @@ interface Props {
 const SingleProject = ({project_image, project_tittle, project_subtittle, project_description, tech_array}:Props) => {
   const [isHovered, setIsHovered] = useState<boolean>(false)
   return (
-    <div className='single_project relative cursor-pointer rounded-lg overflow-hidden' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+    <div className='single_project relative cursor-pointer rounded-lg overflow-hidden ' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
         <div className='project_image_container relative'>
-            <Image className='' src={project_image} alt='apart_project'/>                    
+            <Image src={project_image} alt='apart_project'/>                    
         </div>
-        <div className={`project_absolute_wrapper absolute flex flex-col  items-center gap-4 top-0 w-full h-full bg-[#ffffffe0] ${isHovered ? "opacity-1 " : "opacity-0"} transition-all duration-100`}>
+        <div className={`project_absolute_wrapper absolute flex flex-col  items-center gap-4 top-0 w-full h-full bg-[#ffffffe0] ${isHovered ? "opacity-1 " : "opacity-[0]"} transition-all duration-100`}>
             <div className='project_header flex flex-col text-[#444548] font-roboto justify-center items-center'>
                 <h1 className='text-[#FF7400] font-semibold text-[26px] xl:text-[22px] 2xl:text-[26px]'>{project_tittle}</h1>
                 <span className=' text-[15px] xl:text-[11px] 2xl:text-[12px] font-semibold'>{project_subtittle}</span>                        
