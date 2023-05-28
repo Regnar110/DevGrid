@@ -16,7 +16,7 @@ import Mug from './Mug'
 
 const WebDevelopmentSVG = () => {
     return (
-        <svg className='w-[280px] md:w-[320px] lg:w-[380px] xl:w-[450px] 2xl:w-[500px] h-fit lg:h-[400px]'  viewBox="0 0 475 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className='w-[250px] md:w-[320px] lg:w-[260px] xl:w-[280px] 2xl:w-[300px] h-fit lg:h-[300px]'  viewBox="0 0 475 450" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_1_2)">
         <path opacity="0.2" d="M246.287 443.5C305.415 443.5 353.348 429.126 353.348 411.395C353.348 393.664 305.415 379.29 246.287 379.29C187.159 379.29 139.226 393.664 139.226 411.395C139.226 429.126 187.159 443.5 246.287 443.5Z" fill="#34DCE7"/>
         <path opacity="0.1" d="M246.454 426.469C289.713 426.469 324.781 415.953 324.781 402.981C324.781 390.009 289.713 379.493 246.454 379.493C203.195 379.493 168.127 390.009 168.127 402.981C168.127 415.953 203.195 426.469 246.454 426.469Z" fill="#34DCE7"/>

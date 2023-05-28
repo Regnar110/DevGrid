@@ -9,8 +9,8 @@ const ShowCase = () => {
             <Image src={partnership_image} alt='partnership'/>
         </div>
       <div className='showcase_header_text flex flex-col col-span-1 justify-center items-center md:items-start p-10 gap-6'>
-        <h1 className='text-[25px] md:text-[20px] lg:text-[25px] xl:text-[30px] 2xl:text-[40px]'>YOUR WEBSITE, YOUR SHOWCASE</h1>
-        <p className='md:text-[12px] lg:text-[14px] xl:text-[18px] 2xl:text-[20px]'>
+        <h1 className='text-[23px] md:text-[20px] lg:text-[20px] xl:text-[25px] 2xl:text-[30px]'>YOUR WEBSITE, YOUR SHOWCASE</h1>
+        <p className='text-[13px] [md:text-[12px] lg:text-[13px] xl:text-[15px] 2xl:text-[17px]'>
             We know that your business website is your online business card. 
             That is why we make sure that the design and creation of websites is always tailored to your needs and requirements.
             All this so that the website we create is not only beautiful, but also functional and responsive. 

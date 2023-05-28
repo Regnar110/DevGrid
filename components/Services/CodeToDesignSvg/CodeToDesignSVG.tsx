@@ -2,7 +2,7 @@ import React from 'react'
 
 const CodeToDesignSVG = () => {
   return (
-<svg className='w-[280px] md:w-[320px] lg:w-[380px] xl:w-[450px] 2xl:w-[500px] h-fit lg:h-[400px]' viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg className='w-[250px] md:w-[320px] lg:w-[260px] xl:w-[280px] 2xl:w-[300px] h-fit lg:h-[300px]' viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1401_36660)">
 <path d="M46.1425 149.309C46.1425 150.028 37.3564 149.87 32.4089 149.954C26.4935 150.054 18.0449 150.224 18.0449 150.224L21.4671 148.693C21.4671 148.693 28.1584 148.008 33.5391 148.008C41.875 148.008 46.1425 148.591 46.1425 149.309Z" fill="black" fill-opacity="0.12"/>
 <path d="M45.0918 14.2846L18.4455 7.47266V148.008L45.0918 141.305V14.2846Z" fill="url(#paint0_linear_1401_36660)"/>

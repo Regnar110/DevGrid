@@ -9,7 +9,7 @@ import DesignToCode from '@/components/Services/DesignToCode'
 import Services from '@/components/Services/Services'
 import WebDevelopment from '@/components/Services/WebDevelopment'
 import WebSolutions from '@/components/Services/WebSolutions'
-import TechParticles from '@/components/Technologies/TechParticles'
+
 import Technologies from '@/components/Technologies/Technologies'
 
 
@@ -29,7 +29,7 @@ export default function Home() {
           <WebSolutions/>
           <DesignToCode/>
         </Services>
-        <Technologies/>
+        {/* <Technologies/> */}
         <ShowCase/>
         <ElonSubSection/>
         <div className='section_header w-fit grid grid-cols-3 justify-items-start text-[25px] md:text-[30px] lg:text-[40px] font-bold my-0'>

@@ -110,7 +110,7 @@ const RocketIcon = () => {
         };
       }, [fires[0].length]);
   return (
-    <svg className='rocket_movement_animation xl:w-[400px] 2xl:w-[500px]'  viewBox="0 0 514 492" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className='rocket_movement_animation w-[150px] md:w-[200px] lg:w-[220px] xl:w-[250px] 2xl:w-[300px]'  viewBox="0 0 514 492" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clipPath="url(#clip0_12_125)">
             <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire1} fill="#E73900"/>
             <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire2} fill="#E73900"/>

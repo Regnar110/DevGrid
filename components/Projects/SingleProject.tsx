@@ -15,11 +15,11 @@ const SingleProject = ({project_image, project_tittle, project_subtittle, projec
   const [isHovered, setIsHovered] = useState<boolean>(false)
 
   return (
-    <div className='single_project relative cursor-pointer rounded-lg overflow-hidden ' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-        <div className='project_image_container relative'>
+    <div className='single_project relative cursor-pointer rounded-lg overflow-hidden h-fit w-full' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+        <div className='project_image_container relative w-full'>
             <Image src={project_image} alt='apart_project'/>                    
         </div>
-        <div className={`project_absolute_wrapper relative md:absolute flex flex-col  items-center gap-4 top-0 w-full h-full bg-[#ffffffe0] ${isHovered === true ? "md:opacity-1 " : "md:opacity-[0]"} transition-all duration-100`}>
+        <div className={`project_absolute_wrapper relative md:absolute flex flex-col  items-center gap-4 top-0 w-fit h-full bg-[#ffffffe0] ${isHovered === true ? "md:opacity-1 " : "md:opacity-[0]"} transition-all duration-100`}>
             <div className='project_header flex flex-col text-[#444548] font-roboto justify-center items-center'>
                 {/* <h1 className='text-[#FF7400] font-semibold text-[26px] xl:text-[22px] 2xl:text-[26px]'>{project_tittle}</h1> */}
                 <span className=' text-[14px] font-semibold text-center'>{project_subtittle.toUpperCase()}</span>                        
