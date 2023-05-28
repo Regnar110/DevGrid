@@ -18,7 +18,7 @@ export default function Home() {
     <LandingPage>
       <Navigation/>
       <LandingWithLogo/>
-      <section className='about_section relative mt-6 flex flex-col justify-center items-center max-w-[1536px] drop-shadow-2xl rounded-md shadow-white bg-white'>
+      <section className='about_section relative mt-6 flex flex-col justify-center items-center max-w-[1536px] rounded-md  bg-white mx-5'>
       <div className='section_header w-full flex justify-center items-center text-[20px] md:text-[25px] lg:text-[30px] font-bold my-10'>
         <div className='header text-[#444548]'>
           Services
@@ -32,9 +32,9 @@ export default function Home() {
         {/* <Technologies/> */}
         <ShowCase/>
         <ElonSubSection/>
-        <div className='section_header w-fit grid grid-cols-3 justify-items-start text-[25px] md:text-[30px] lg:text-[40px] font-bold my-0'>
-          <div className='header'>
-            PROJECTS
+        <div className='section_header w-full flex justify-center items-center text-[20px] md:text-[25px] lg:text-[30px] font-bold my-10'>
+          <div className='header text-[#444548]'>
+            Projects
           </div>
         </div>
         <Projects/>
