@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Image from "next/image"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
 
 import html from '../../public/tech/html.png'
 import css from '../../public/tech/css.jpg'
@@ -14,20 +18,12 @@ import mui from '../../public/tech/mui.png'
 import sanity from '../../public/tech/sanity.png'
 import mongo from '../../public/tech/mongodb.png'
 import Benefits from '../Benefits/Benefits';
-import ReactSwipe from 'react-swipe';
 
 const Technologies = () => {
     const [isMounted, setIsMounted] = useState<boolean>(false)
     useEffect(() => {
         setIsMounted(true)
     })
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
   return isMounted ?
     <div className='tech_stack relative my-5 md:my-10 lg::my-28 max-w-[1536px] flex flex-col font-roboto text-[20px] items-center justify-center'>
         <p className='tech-stack-header text-[18px]  md:text-[20px] lg:text-[25px] xl:text-[30px] font-bold text-center text-[#444548] px-5 md:px-0 mb-5'>We use only the latest tools and technologies</p>
@@ -63,27 +59,38 @@ const Technologies = () => {
             </Swiper>
             </MediaQuery>            
         </div> */}
-        <div className='swipper_outer_wrapper relative'>
-            {/* <ReactSwipe 
-            className='w-[800px]'
-            swipeOptions={{auto:2000, speed:200, continuous:true}}
+        <div className='swipper_outer_wrapper relative w-full'>
+            <Swiper 
+            className="mySwiper"
+            autoplay={{
+                delay:1500,
+                disableOnInteraction: false
+            }}
+            breakpoints={{
+                700: {
+                    width: 400
+                }
+            }}
+            // modules={[Autoplay]}
+            centeredSlides={true}
+            loop={true}
             >
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={html} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={css} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={js} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={ts} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={react} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={next} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={redux} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={form} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={tailwind} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={mui} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={sanity} alt="tech"/></div>
-                <div className='h-[200px] w-[200px] flex justify-center items-center'><Image width={150} src={mongo} alt="tech"/></div>
-            </ReactSwipe> */}
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={html} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={css} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={js} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={ts} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={react} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={next} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={redux} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={form} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={tailwind} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={mui} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={sanity} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide className='w-fit flex justify-center items-center'><div className='h-[200px] w-fit flex justify-center items-center'><Image width={150} src={mongo} alt="tech"/></div></SwiperSlide>
+            </Swiper>            
+        </div>
 
         <Benefits/>
-    </div>
     </div>
 
   : null
