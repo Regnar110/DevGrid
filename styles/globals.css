@@ -21,6 +21,20 @@ body,html {
     margin:0px;
     padding:0px;
 }
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+}
 
 .half_bg_color {
     background: rgb(255,255,255);

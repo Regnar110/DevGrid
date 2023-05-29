@@ -22,7 +22,7 @@ const LandingWithLogo = () => {
         <GradientHeader header_text='INNOVATION'/>
         <GradientHeader header_text='EFFECTIVENESS'/>
         <GradientHeader header_text='PASSION'/>
-        <span className='starter_header_under text-[11px] md:text-[13px] lg:text[16px] xl:text-[20px] font-normal mt-8 text-white'>Innovative solutions for your website</span>
+        <span className='starter_header_under text-[11px] md:text-[13px] lg:text[16px] xl:text-[20px] font-normal mt-8 text-white'>Web Sites for your Bussiness</span>
         <div className='absolute_header_underline absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[80%] -z-50'>
           <Image priority={true}  src={headers_underline} alt='orange_line' className=' m-0' />
         </div>
