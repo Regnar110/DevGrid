@@ -11,10 +11,10 @@ const ShowCase = () => {
       <div className='showcase_header_text flex flex-col col-span-1 justify-center items-center md:items-start p-10 gap-6'>
         <h1 className='text-[15px] lg:text-[17px] 2xl:text-[19px] font-bold'>YOUR WEBSITE, YOUR SHOWCASE</h1>
         <p className='text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px]'>
-            We know that your business website is your online business card. 
-            That is why we make sure that the design and creation of websites is always tailored to your needs and requirements.
-            All this so that the website we create is not only beautiful, but also functional and responsive. 
-            We treat our clients as partners whom we are happy to help in achieving their goals.
+        I understand that websites are often showcases of various companies, start-ups, designer, etc.
+        That is why I make sure that the websites I create are always tailored to the needs and requirements of a given task. 
+        All this so that the website I created was not only beautiful, but also functional and responsive.
+        I treat each project as the "most important" one and each client as a partner.
         </p>
       </div>
     </div>
