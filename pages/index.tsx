@@ -1,6 +1,5 @@
 import ElonSubSection from '@/components/AboutSection/ElonSubSection/ElonSubSection'
 import ShowCase from '@/components/AboutSection/ShowCase/ShowCase'
-import TrumpSubSection from '@/components/AboutSection/TrumpSubSection/TrumpSubSection'
 import Benefits from '@/components/Benefits/Benefits'
 import HeroHeader from '@/components/HeroHeader/HeroHeader'
 import LandingPage from '@/components/LandingPage'
@@ -14,7 +13,7 @@ import WebDevelopment from '@/components/Services/WebDevelopment'
 import WebSolutions from '@/components/Services/WebSolutions'
 import TechStackSwiper from '@/components/TechStackSwiper/TechStackSwiper'
 import { Parallax } from 'react-scroll-parallax'
-
+import AboutMe from '../components/AboutMe/AboutMe'
 export default function Home() {
   return (
     <LandingPage>
@@ -23,6 +22,7 @@ export default function Home() {
         <LandingWithLogo/>
       </Parallax>
       <SectionWrapper id='landing_section'>
+        <AboutMe/>
         <HeroHeader header_text='What I do'/>
         <Services>
             <WebDevelopment/>
