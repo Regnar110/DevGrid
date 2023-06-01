@@ -22,7 +22,7 @@ export default function Home() {
         <LandingWithLogo/>
       </Parallax>
       <SectionWrapper id='landing_section'>
-        <AboutMe/>
+        {/* <AboutMe/> */}
         <HeroHeader header_text='What I do'/>
         <Services>
             <WebDevelopment/>

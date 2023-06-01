@@ -11,7 +11,10 @@ const AboutMe = () => {
   
   },[])
   return (
-    <DeveloperSvg/>
+    <div className='about_me bg-black'>
+      <DeveloperSvg/>
+    </div>
+
   )
 }
 
