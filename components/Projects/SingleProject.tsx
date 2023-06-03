@@ -3,15 +3,17 @@ import Image, { StaticImageData } from 'next/image'
 import ProjectTechIcon from './ProjectTechIcon';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Link from 'next/link';
 
 interface Props {
   project_image: StaticImageData;
-  project_tittle:string;
   project_subtittle:string;
   project_description:string;
-  tech_array: string[]
+  tech_array: string[];
+  link:string;
+  github_link:string
 }
-const SingleProject = ({project_image, project_tittle, project_subtittle, project_description, tech_array}:Props) => {
+const SingleProject = ({project_image, project_subtittle, project_description, tech_array,link, github_link}:Props) => {
   const [isHovered, setIsHovered] = useState<boolean>(false)
 
   return (
@@ -32,11 +34,10 @@ const SingleProject = ({project_image, project_tittle, project_subtittle, projec
             </div>
             <div className='visit_icons flex justify-center items-center gap-3'>
               <div className='visit_icon_wrapper border-[1px] bg-[#fff] p-1 rounded-full flex justify-center items-center  text-[#FF7400]'>
-                <TelegramIcon fontSize='medium' color='inherit'/> 
+                <Link href={link}><TelegramIcon fontSize='medium' color='inherit'/> </Link>
               </div>
-              
               <div className='visit_icon_wrapper border-[1px] bg-[#fff] p-1 rounded-full flex justify-center items-center text-[#FF7400]'>
-                <GitHubIcon fontSize='medium' color='inherit'/> 
+                <Link href={github_link}><GitHubIcon fontSize='medium' color='inherit'/> </Link>
               </div>
             </div>
         </div>
