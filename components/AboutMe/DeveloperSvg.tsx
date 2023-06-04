@@ -9,7 +9,7 @@ const DeveloperSvg = () => {
     <svg id="erlLONgaRYx1"
     className='w-[300px] md:w-[450px] lg:w-[600px] xl:w-[700px] 2xl:w-[750px]'
         xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 400" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+        xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 400" shape-rendering="geometricPrecision" textRendering="geometricPrecision">
         <defs>
             <linearGradient id="erlLONgaRYx7-fill" x1="174.487" y1="235.378" x2="142.916" y2="167.805" spreadMethod="pad" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
                 <stop id="erlLONgaRYx7-fill-0" offset="0%" stop-color="#dbccff"/>
