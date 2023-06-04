@@ -5,7 +5,6 @@ import ContactMe from '@/components/Contact/ContactMe'
 import HeroHeader from '@/components/HeroHeader/HeroHeader'
 import LandingPage from '@/components/LandingPage'
 import LandingWithLogo from '@/components/LandingWithLogo/LandingWithLogo'
-import Navigation from '@/components/Navigation/Navigation'
 import Projects from '@/components/Projects/Projects'
 import SectionWrapper from '@/components/SectionWrapper/SectionWrapper'
 import DesignToCode from '@/components/Services/DesignToCode'
@@ -17,7 +16,6 @@ import { Parallax } from 'react-scroll-parallax'
 export default function Home() {
   return (
     <LandingPage>
-      {/* <Navigation/> */}
       <Parallax speed={-50}>
         <LandingWithLogo/>
       </Parallax>
@@ -35,6 +33,8 @@ export default function Home() {
           <ElonSubSection/>
           <HeroHeader header_text='Projects'/>
           <Projects/>
+          <HeroHeader header_text='Contact Me'/>
+          <ContactMe/>
       </SectionWrapper>
     <footer className='p-3'>
       <div className='text-[#cacaca] text-[13px]'>Created by <span className='font-bold text-white'>Mateusz Wrycza</span> / @Regnar110 </div>

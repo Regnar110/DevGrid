@@ -27,17 +27,17 @@ export const projects = [
         project_tittle:"Weather App",
         project_subtittle:"Weather forecasting application",
         project_description: "It is an application that shows the current weather with a forecast for the next seven days. Several APIs were used here, such as PlacesAPI, GeoLocationAPI OpenMeteoApI and others. The Front End of the Application was created with the help of React and the BackEnd with the help of Node.js + Express.js.",
-        tech_array: ["Javascript", "React", "SASS", "Node.js", "Express.js"],
+        tech_array: ["Javascript", "React", "SCSS", "Node.js", "Express.js"],
         link:"https://regnar110weatherapp.netlify.app/",
         github_link:"https://github.com/Regnar110/react_weather"
     },
     {
-        project_image: facereco,
-        project_tittle:"Face recognition",
-        project_subtittle:"Face detection",
-        project_description: "An application that allows face detection on provided photos and images with the ability to log in, register and save your progress in the application.",
-        tech_array: ["Javascript", "TypeScript", "React", "Next", "Redux", "Tailwind", "Sanity CMS", "PostgreSQL"],
-        link:"https://devbymat-facerecognition.netlify.app/",
-        github_link:"https://github.com/Regnar110/ts_react_facereco"
+        project_image: rw,
+        project_tittle:"Roofing company website",
+        project_subtittle:"Roofing company website",
+        project_description: "The website of the RW roofing company presenting the company's services, projects and certificates.",
+        tech_array: ["Javascript", "React", "React-Router", "SCSS", "Bootstrap"],
+        link:"https://rw-test-site.netlify.app/",
+        github_link:"https://github.com/Regnar110/rw-roofing"
     },
 ]
