@@ -13,7 +13,7 @@ interface Props {
 const MobileNav = ({fiver_icon, github_icon, logo_mini}:Props) => {
   return (
     <div className='relative'>
-        <Menu left width={280} customBurgerIcon={<MenuOpenIcon/>} customCrossIcon={<CloseIcon/>} noOverlay burgerButtonClassName='w-[35px] ml-[20px]' crossClassName='w-[35px]' menuClassName='bg-white relative top-[-60px] flex flex-col justify-center items-center' >
+        <Menu width={280} customBurgerIcon={<MenuOpenIcon/>} customCrossIcon={<CloseIcon/>} noOverlay burgerButtonClassName='w-[35px] ml-[20px]' crossClassName='w-[35px]' menuClassName='bg-white relative top-[-60px] flex flex-col justify-center items-center' >
         <div className="mobile_menu_content relative top-[35px]">
             <div className='nav_mini_logo relative flex justify-center my-6'>
             <Image width={200} src={logo_mini} alt='devgrid_nav_logo'/>
