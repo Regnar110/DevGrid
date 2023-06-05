@@ -21,7 +21,7 @@ import "swiper/css/pagination";
 const TechStackSwiper = () => {
   return (
         <Swiper 
-            className="mySwiper w-[85vw] 2xl:w-[1536px]"
+            className="mySwiper w-[100vw]"
             slidesPerView={4}
             spaceBetween={10}
             autoplay={{
