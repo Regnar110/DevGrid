@@ -3,7 +3,7 @@ import React from 'react'
 const CodeToDesignSVG = () => {
   return (
 <svg className='w-[250px] md:w-[320px] lg:w-[260px] xl:w-[280px] 2xl:w-[300px] h-fit lg:h-[300px]' viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1401_36660)">
+<g clipPath="url(#clip0_1401_36660)">
 <path d="M46.1425 149.309C46.1425 150.028 37.3564 149.87 32.4089 149.954C26.4935 150.054 18.0449 150.224 18.0449 150.224L21.4671 148.693C21.4671 148.693 28.1584 148.008 33.5391 148.008C41.875 148.008 46.1425 148.591 46.1425 149.309Z" fill="black" fillOpacity="0.12"/>
 <path d="M45.0918 14.2846L18.4455 7.47266V148.008L45.0918 141.305V14.2846Z" fill="url(#paint0_linear_1401_36660)"/>
 <path d="M38.4473 9.03125L38.4473 121.091" stroke="black" strokeWidth="0.515564" strokeLinecap="round"/>
@@ -121,7 +121,7 @@ const CodeToDesignSVG = () => {
 <rect x="113.403" y="89.8036" width="21.6574" height="29.7866" rx="3.12366" stroke="white" strokeOpacity="0.5" strokeWidth="0.138829" shapeRendering="crispEdges"/>
 </g>
 <g filter="url(#filter10_i_1401_36660)">
-<g clip-path="url(#clip1_1401_36660)">
+<g clipPath="url(#clip1_1401_36660)">
 <rect x="89.2617" y="47.8047" width="45.6749" height="4.44286" rx="1.38829" fill="#F2F6FF"/>
 <rect x="89.5391" y="48.082" width="22.5598" height="3.88755" rx="0.962087" fill="url(#paint26_linear_1401_36660)"/>
 </g>

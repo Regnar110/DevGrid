@@ -29,7 +29,7 @@ const SingleProject = ({project_image, project_subtittle, project_description, t
             <span className='project_description text-[11px] md:text-[16px] lg:text-[20px] xl:text-[14px] 2xl:text-[16px] font-normal text-center p-0 md:p-7'>{project_description}</span>
             <div className='tech_stac_project flex flex-wrap gap-y-4 gap-x-2 font-semibold justify-center items-center max-w-[75%]'>
               {
-                tech_array.map(el => <ProjectTechIcon tech_text={el}/>)
+                tech_array.map((el,i) => <ProjectTechIcon key={i} tech_text={el}/>)
               }
             </div>
             <div className='visit_icons flex justify-center items-center gap-3'>

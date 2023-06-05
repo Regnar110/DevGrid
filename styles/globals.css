@@ -348,9 +348,6 @@ body,html {
   animation-timing-function: ease-in-out;
 }
 
-
-//WEB SOLUTIONS SVG
-
 @keyframes rotateRight {
   0% {
     transform: rotate(0deg);

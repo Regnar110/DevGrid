@@ -16,39 +16,39 @@ const ScreenFourSvgPart = () => {
         <path opacity="0.3" d="M288.893 56.741H287.95C286.598 56.741 285.502 57.837 285.502 59.189V200.636C285.502 201.988 286.598 203.084 287.95 203.084H288.893C290.245 203.084 291.341 201.988 291.341 200.636V59.189C291.341 57.837 290.245 56.741 288.893 56.741Z" fill="#F87100"/>
         <path d="M288.405 59.27H288.028C287.488 59.27 287.05 59.7079 287.05 60.248V79.62C287.05 80.1601 287.488 80.598 288.028 80.598H288.405C288.945 80.598 289.383 80.1601 289.383 79.62V60.248C289.383 59.7079 288.945 59.27 288.405 59.27Z" fill="#F87100"/>
 
-        <path d="M300.864 64.133H340.775" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M344.571 64.133H351.061" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M358.217 64.133H386.542" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M300.864 68.226H349.124" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M353.894 67.481H373.512" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M377.15 67.481H387.138" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M302.953 73.295H360.006" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M366.715 73.295H382.145" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M387.139 77.848H343.011" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M361.944 84.028H300.864" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M343.011 87.905H388.182" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M386.435 148.356H349.279" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M300.864 77.848H317.071" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M326.91 167.131H315.729" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M325.867 172.051H300.076" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M338.389 167.131H343.01" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M346.813 167.131H351.434" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M355.236 167.131H359.857" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M363.659 167.131H368.28" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M372.082 167.131H376.703" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M380.505 167.131H385.126" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M338.389 170.723H341.371" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M345.322 170.723H348.304" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M352.254 170.723H355.236" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M359.186 170.723H362.168" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M366.118 170.723H369.1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M373.051 170.723H376.033" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M379.983 170.723H382.965" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M303.722 185.356L300.44 188.638L303.594 191.792" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M307.004 185.356L303.722 188.638L306.876 191.792" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M315.134 185.356H385.126" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M315.134 188.574H357.546" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M315.134 193.104H357.546" stroke="white" stroke-linecap="round" stroke-linejoin="round"/> 
+        <path d="M300.864 64.133H340.775" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M344.571 64.133H351.061" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M358.217 64.133H386.542" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M300.864 68.226H349.124" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M353.894 67.481H373.512" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M377.15 67.481H387.138" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M302.953 73.295H360.006" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M366.715 73.295H382.145" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M387.139 77.848H343.011" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M361.944 84.028H300.864" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M343.011 87.905H388.182" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M386.435 148.356H349.279" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M300.864 77.848H317.071" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M326.91 167.131H315.729" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M325.867 172.051H300.076" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M338.389 167.131H343.01" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M346.813 167.131H351.434" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M355.236 167.131H359.857" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M363.659 167.131H368.28" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M372.082 167.131H376.703" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M380.505 167.131H385.126" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M338.389 170.723H341.371" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M345.322 170.723H348.304" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M352.254 170.723H355.236" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M359.186 170.723H362.168" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M366.118 170.723H369.1" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M373.051 170.723H376.033" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M379.983 170.723H382.965" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M303.722 185.356L300.44 188.638L303.594 191.792" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M307.004 185.356L303.722 188.638L306.876 191.792" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M315.134 185.356H385.126" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M315.134 188.574H357.546" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M315.134 193.104H357.546" stroke="white" strokeLinecap="round" strokeLinejoin="round"/> 
     </svg>
   )
 }
