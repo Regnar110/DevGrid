@@ -1,4 +1,5 @@
 export const animateSVG = () => {! function(t, n) {
+    console.log("funkcja start")
     "object" == typeof exports && "undefined" != typeof module ? module.exports = n() : "function" == typeof __SVGATOR_DEFINE__ && __SVGATOR_DEFINE__.amd ? __SVGATOR_DEFINE__(n) : ((t = "undefined" != typeof globalThis ? globalThis : t || self).__SVGATOR_PLAYER__ = t.__SVGATOR_PLAYER__ || {}, t.__SVGATOR_PLAYER__["5c7f360c"] = n())
 }(this, (function() {
     "use strict";
@@ -1371,6 +1372,7 @@ export const animateSVG = () => {! function(t, n) {
                 }
             }]), o
         }(st);
+        console.log("funkcja koniec")
     return Jt.init(), Jt
 }));
 (function(s, i, o, w, d, a, b) {
